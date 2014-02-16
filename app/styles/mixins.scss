@@ -1,0 +1,26 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin border-radius-custom($top, $right, $bottom, $left) {
+  -webkit-border-radius: $top $right $bottom $left;
+  -moz-border-radius: $top $right $bottom $left;
+  border-radius: $top $right $bottom $left;
+}
+
+@mixin animation($properties) {
+  -webkit-animation: $properties;
+  -moz-animation: $properties;
+  -ms-animation: $properties;
+  -o-animation: $properties;
+  animation: $properties;
+}
+
+@mixin border($top, $right, $bottom, $left) {
+  border-top: 1px solid $top;
+  border-right: 1px solid $right;
+  border-bottom: 1px solid $bottom;
+  border-left: 1px solid $left;
+}
