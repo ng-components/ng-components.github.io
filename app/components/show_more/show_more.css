@@ -1,0 +1,10 @@
+.show_more .list_wrapper {
+    height: 200px;
+    overflow: auto;
+}
+.show_more .list li {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0;
+    list-style: none;
+    height: 10px;
+}

@@ -19,6 +19,14 @@ body {
   padding: 15px 0;
 }
 
+.row{
+  max-width: 980px !important;
+}
+
+#main{
+  font-size: 1.4em;
+}
+
 /* ---------------- Global ---------------- */
 a{
   color: #2BA3D4;
@@ -31,10 +39,42 @@ a{
 h1, h2, h3, h4, h5, h6{
   color: #222;
   font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+h1{
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+h3{
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+h4{
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+h5{
+  font-size: 1.5em;
+  margin-bottom: 8px;
 }
 
 p{
   margin-bottom: 8px;
+}
+
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
 }
 
 .fleft{
@@ -115,8 +155,9 @@ img.fright{
   background: #3DC0F1;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   padding: 130px 0 130px 0;
+  margin-bottom: 20px;
   text-align: center;
   h2{
     color: #fff;
@@ -129,4 +170,5 @@ img.fright{
   color: #DDDDDD;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+  margin-top: 20px;
 }
