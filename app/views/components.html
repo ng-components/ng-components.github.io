@@ -3,18 +3,14 @@
 <section class="content" ng-controller="ComponentsCtrl">
   <div class="row">
     <div class="small-12 columns">
-      <div class="row">
-        <div class="small-12 columns">
-          <div class="inner">
-            <h3>Components:</h3>
-            <ul class="components-list">
-              <li ng-repeat="component in components">
-                <a ng-href="#start/{{component.id}}">{{component.name}}</a>
-                <div ng-include="'components/' + component.id + '/' + component.id + '.html'"></div>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <div class="inner">
+        <h3>Components:</h3>
+        <ul class="components-list">
+          <li ng-repeat="component in components | orderBy: 'name'">
+            <h5>{{component.name}}</h5>
+            <div ng-include="'components/' + component.id + '/' + component.id + '.html'"></div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

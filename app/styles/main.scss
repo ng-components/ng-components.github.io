@@ -36,7 +36,7 @@ a{
   }
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4{
   color: #222;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
@@ -162,6 +162,28 @@ img.fright{
   h2{
     color: #fff;
   }
+}
+
+.components-list{
+  padding: 0;
+  li{
+    border-bottom: 1px solid #3dc0f1;
+    list-style: none;
+    padding-bottom: 20px;
+    h5{
+      color: #2ba3d4;
+    }
+  }
+}
+
+.button{
+  background: #2ba3d4;
+  @include border-radius(3px);
+  color: #fff;
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px 0;
+  text-decoration: none;
 }
 
 /* ---------------- footer ---------------- */

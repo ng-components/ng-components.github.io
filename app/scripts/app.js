@@ -32,6 +32,10 @@ ngComponents.factory('componentsList', function () {
     {
       id: 'show_more',
       name: 'Show more'
+    },
+    {
+      id: 'confirm',
+      name: 'Confirm'
     }
   ];
 
